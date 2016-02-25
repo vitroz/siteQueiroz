@@ -1,0 +1,167 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    background: #abbaab; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.logo{
+    margin-top: 5px;
+}
+
+.tituloCenter{
+    margin-left: 10px;
+    font-size: 1.8em;
+    color: #E4E4E4;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.tituloMain{
+    font-size: 4em;
+    color: #737373;
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.centroEmp{
+    font-weight: normal !important;
+    position: relative;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.emailForm{
+
+}
+
+.imgGaleria{
+    border: 0.2em solid #999;
+    background-color: #fcfcfc;
+    padding: 4px;
+
+}
+
+.imgGaleriaTotem{
+    border: 0.2em solid #999;
+    background-color: #fcfcfc;
+    padding: 4px;
+    height: 270px !important;
+    width: 200px;
+    margin-left: 60px;
+
+}
+
+.imgParceiros{
+    border: 0.2em solid #999;
+    background-color: #fcfcfc;
+    padding: 4px;
+    width: 800px;   
+}
+
+.rodapeTexto{
+    float: right;
+    font-size: 11px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.client-avatar img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+
+    .tituloMain{
+        font-size: 3em;
+        color: #737373;
+        position: relative;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+
